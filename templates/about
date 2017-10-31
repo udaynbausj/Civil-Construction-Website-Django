@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Goutham's Infra</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Apartment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="static/templates/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/templates/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="static/templates/js/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href=" static/templates/css/base.css">
+<script src=" static/templates/js/modernizr.min.js"></script>
+<script src=" static/templates/js/jquery.fitvids.js "></script>
+<script src="static/templates/js/script.js"></script>
+
+<!-- //js -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="static/templates/css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link href=" fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link href='fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	.rotate90{
+		-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+	}
+</style>
+</head>	
+<body>
+
+<!-- banner -->
+	<div class="banner-1">
+			<!-- header -->
+	<div class="w3_navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-5" id="cl-effect-5">
+						<ul class="nav navbar-nav">
+							<li><a href="index"><span data-hover="Home">Home</span></a></li>
+							<li class="active"><a href="about"><span data-hover="About Us">About Us</span></a></li>
+							<li><a href="gallary"><span data-hover="Gallery">Gallery</span></a></li>
+							<li><a href="login"><span data-hover="Login">Login</span></a></li>
+							<li><a href="contact"><span data-hover="Contact">Contact</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+			<div class="w3_navigation_pos">
+				<h1><a href="index">Goutham's Infra</a></h1>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+	</div>
+<!-- //banner -->
+<div class="about_page">
+	<div class="container">
+		<h3 class="agile">About Us</h3>
+		<div id="parentVerticalTab">
+            <div class="resp-tabs-container hor_1">
+                <div>
+					
+					<div class="col-md-6 easy-left">
+						<img src="static/templates/images/t2.jpg" alt=" ">
+					</div>
+					<div class="col-md-6 easy-right">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Highly experienced</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Renowned</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>100% customer satisfaction</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Latest technologies being used</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Reasonable fiars</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+						<p>India's Most trusted builders with world class architects.We use latest technologies to satisfy our customers.Pioneer in making customer's satisfaction to 100%</p>
+                </div>     
+            </div>
+        </div>
+	</div>
+</div>
+<div class="team-page">
+	<div class="container">
+		<h3 class="agile">Team</h3>
+		<div class="col-md-4 about-poleft">
+            <div class="about_img"><img src="static/templates/images/UDAY.jpg" alt="">
+              <h5>UDAY BK</h5>
+              <div class="about_opa">
+				<p>Engineer</p>
+                  <div class="agile-social">
+							<ul>
+								<li><a href="https://www.facebook.com/uday.nbausj"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+              </div>
+            </div>
+        </div>
+		<div class="col-md-4 about-poleft">
+            <div class="about_img"><img src="static/templates/images/samba2.jpg" alt="" id="rotate90">
+              <h5>DHEERAJ D</h5>
+              <div class="about_opa">
+                <p>Engineer</p>
+                 <div class="agile-social">
+							<ul>
+								<li><a href="https://www.facebook.com/happy.dhee"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+              </div>
+            </div>
+        </div>
+		
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //agile -->
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 agileinfo_newsletter_left">
+				<h3>Subscribe to Newsletter</h3>
+				<p>If you wish to listen to us, subscribe....</p>
+			</div>
+			<div class="col-md-6 agileinfo_newsletter_right">
+				<form action="#" method="post">
+				    {% csrf_token %}
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<div class="agile-footer">
+		<div class="container">
+			<div class="aglie-info-logo">
+				<h2><a href="index">Goutham's Infra</a></h2>
+			</div>
+			<ul class="aglieits-nav">
+				<li><a href="index">Home</a><i>|</i></li>
+				<li><a href="about">About Us</a><i>|</i></li>
+				<li><a href="gallary">Gallery</a><i>|</i></li>
+				<li><a href="login">Login</a><i>|</i></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			<div class="w3layouts_mail_grid">
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Mail Us</h3>
+						<a href="mailto:info@example.com">goutham.infra@gmail.com</a>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Address</h3>
+						<p>S R Nagar,Hyderabad/p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Phone</h3>
+						<p>7989844905</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Fax</h3>
+						<p>+(0121) 121 121</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="copy-right">
+				<p>© 2017 Goutham's Infra. All rights reserved | Design by <a href="http://nbausj.com">Uday B K and D Dheeraj</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="static/templates/js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>

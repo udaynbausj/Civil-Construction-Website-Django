@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gowtham-Infra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding:0;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("buildings4.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar-default{
+            background-color:transparent !important;
+            border-color:transparent;
+            background-image:none;
+            box-shadow:none;
+        }
+        #Progress-text,#liveprogress-text,#credentials-text,#Logout-text,#GI{
+            color: antiquewhite;
+        }
+        #home-text{
+            color:black;
+        }
+        #home-text-high{
+            text-align: center;
+            color: #FFFFFF;
+            margin-top:180px;
+            text-decoration: none;
+            list-style: none;
+        }
+        .well{
+            background-color: transparent;
+        }
+        #quote{
+            text-align: center ;
+            font-family:'Quicksand', sans-serif;
+        }
+      
+
+    </style>
+</head>
+<body>
+
+<div class="bg">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html"><h4 id="GI">Gowtham Infra</h4></a>
+            </div>
+            <ul class="nav navbar-nav">
+                	  <li class="active"><a href="home.html"><h4 id="home-text">Home</h4></a></li>
+                      <li><a href="progress.html""><h4 id="Progress-text">Progress</h4></a></li>
+                      <li><a href="live progress.html"><h4 id="liveprogress-text">live Progress</h4></a></li>
+                      <li><a href="credentials.html"><h4 id="credentials-text">Credentials</h4></a></li>
+                      <li><a href="#"><h4 id="Logout-text">Logout</h4></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container well well-lg w3-hover-shadow" id="home-text-high">
+            <div>
+        <h1 style="text-decoration: none">YOU HAVE LANDED TO BEST CONSTRUCTION WEBSITE</h1>
+                <small>EXPLORE</small></div>
+    </div>
+    </a>
+</div>
+
+
+<div class="container">
+<div class="jumbotron">
+<h2 id='quote'>We shape our buildings, thereafter they shape us</h2>
+</div>
+</div>
+
+
+
+</body>
+</html>

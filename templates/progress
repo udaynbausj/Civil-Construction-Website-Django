@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Gowtham-Infra progress</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+         body, html {
+            height: 100%;
+            margin: 0;
+            padding:0;
+        }
+          .bg {
+            /* The image used */
+            background-image: url("cg.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+
+
+          
+        </style>
+  </head>
+    <body>
+      
+      <div class="bg">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <a class="navbar-brand" href="afterlogin"><h4 id="GI">Gowtham Infra</h4></a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                      <li><a href="afterlogin"><h4 id="home-text">Home</h4></a></li>
+                      <li class="active"><a href="#"><h4 id="Progress-text">Progress</h4></a></li>
+                      <li><a href="live progress"><h4 id="live progress-text">Live progress</h4></a></li>
+
+                      <li><a href="credentials"><h4 id="credentials-text">Credentials</h4></a></li>
+                      <li><a href="#"><h4 id="Logout-text">Logout</h4></a></li>
+                  </ul>
+              </div>
+          </nav>
+
+                <div class="container">
+                  <h2> Progress Of Construction:</h2>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" id="Floorslab" style="width:100%">
+                      100%(Floorslab)
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" id="Framing" style="width:65%">
+                      65%(Framing)
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" id="External" style="width:50%">
+                      50%(External)
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" id="Internal" style="width:70%">
+                      70%(Internal)
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" id="Completed" style="width:45%">
+                      45%(Completed)
+                    </div>
+                  </div>
+                </div>               
+    
+          
+
+      <script >
+        $(document).ready(function(){
+            $('#Floorslab').animate({width:'100%'},2000);
+            $('#Framing').animate({width:'65%'},2000);
+            $('#External').animate({width:'50%'},2000);
+            $('#Internal').animate({width:'70%'},2000);
+            $('#Completed').animate({width:'45%'},2000);
+          });
+      </script>
+      <br>
+      <div class="w3-container">
+          <a class="w3-button w3-ripple w3-black" href="live progress.html" style="margin-left: 850px">Live Progress</a>  
+      </div>      
+
+
+    </body>
+  </html>

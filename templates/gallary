@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gouthams's Infra</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% load staticfiles %}
+<meta name="keywords" content="Apartment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="static/templates/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/templates/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="static/templates/js/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="static/templates/css/base.css">
+
+<!-- //js -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="static/templates/css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>	
+<body>
+
+<!-- banner -->
+	<div class="banner-1">
+			<!-- header -->
+	<div class="w3_navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-5" id="cl-effect-5">
+						<ul class="nav navbar-nav">
+							<li><a href="index"><span data-hover="Home">Home</span></a></li>
+							<li><a href="about"><span data-hover="About Us">About Us</span></a></li>
+							<li class="active"><a href="gallary"><span data-hover="Gallery">Gallery</span></a></li>
+							<li><a href="login"><span data-hover="Login">Login</span></a></li>
+							<li><a href="contact"><span data-hover="Contact">Contact</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+			<div class="w3_navigation_pos">
+				<h1><a href="index">Goutham's Infra</a></h1>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+	</div>
+<!-- //banner -->
+<div class="w3l-gallery">
+	<div class="container" style="">
+		<div class="galley-grid">
+			<h3 class="agile">Gallery</h3>
+			<span class="lft-bar-gallery"> </span>
+			<span class="rit-bar-gallery"> </span>
+		</div>
+		<div class="w3ls-top">
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Goa</h4>
+						<h5>Near Anjuna Beach</h5>
+					</div>					
+					<img src="static/templates/images/1.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Xavier Restaurant</h4>
+					<p>
+						Best multi cousine restaurant in Goa</p>			
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Vizag</h4>
+						<h5>Near Beach Road</h5>
+					</div>
+					
+					<img src="static/templates/images/2.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Pioneer's Arcade</h4>
+					<p>
+						Tallest and best building in vizag with beach view.</p>					
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Pune</h4>
+						<h5>Near Aga Khan Palace</h5>
+					</div>
+					
+					<img src="static/templates/images/3.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Building of steps</h4>
+					<p>
+						The building is built in such a way that, it looks like strais.</p>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Mumbai</h4>
+						<h5>Near Gate way of India</h5>
+					</div>
+					
+					<img src="static/templates/images/4.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Thakre's Avenue</h4>
+					<p>
+						Shiva sena's party office</p>
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Hyderabad</h4>
+						<h5>Film Nagar</h5>
+					</div>
+					
+					<img src="static/templates/images/5.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Achiever's Spot</h4>
+					<p>
+						Astonishing design built by world class architechts</p>
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Anantapur</h4>
+						<h5>Near Rock's valley</h5>
+					</div>
+					
+					<img src="static/templates/images/6.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Collector's office</h4>
+					<p>
+						IAS are honoured in this house</p>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Delhi</h4>
+						<h5>Near Parliament</h5>
+					</div>
+					
+					<img src="static/templates/images/7.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>Hotel Krish</h4>
+					<p>
+						7-Star hotel.Rockstars,Cricketers,Superstars and celebraties dine here</p>
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Melbourne</h4>
+						<h5>Nam libero tempore cum</h5>
+					</div>
+					
+					<img src="static/templates/images/8.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>But I must explain</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+				</div>
+			</div>
+			<div class="col-md-4 project">	
+				<div class="projectThumbnail">
+					<div class="projectThumbnailHover projcet-ro">
+						<h4>Sydney</h4>
+						<h5>Nam libero tempore cum</h5>
+					</div>
+					
+					<img src="static/templates/images/9.jpg" alt="Project 01" class="img-responsive thumbnailImage">
+				</div>
+				<div class="projectInfo">
+					<div class="projectNavClose">
+						<button class="closeButton"><img src="static/templates/images/cross.png" alt=""></button>
+					</div>
+					<div class="clearfix"> </div>
+					<h4>But I must explain</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+				</div>
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>		
+	</div>
+</div>
+<!-- //agile -->
+
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 agileinfo_newsletter_left">
+				<h3>Subscribe to Newsletter</h3>
+				<p>If you wish to listen from us,Subscribe...</p>
+			</div>
+			<div class="col-md-6 agileinfo_newsletter_right">
+				<form action="#" method="post">
+				    {% csrf_token %}
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<div class="agile-footer">
+		<div class="container">
+			<div class="aglie-info-logo">
+				<h2><a href="index">Goutham's Infra</a></h2>
+			</div>
+			<ul class="aglieits-nav">
+				<li><a href="index">Home</a><i>|</i></li>
+				<li><a href="about">About Us</a><i>|</i></li>
+				<li><a href="gallary">Gallery</a><i>|</i></li>
+				<li><a href="login">Login</a><i>|</i></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			<div class="w3layouts_mail_grid">
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Mail Us</h3>
+						<a href="mailto:info@example.com">goutham.infra@gmail.com</a>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Address</h3>
+						<p>S R Nagar,Hyderabad</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Phone</h3>
+						<p>7989844905</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Fax</h3>
+						<p>+(0121) 121 121</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="copy-right">
+				<p>© 2017 Goutham's Infra. All rights reserved | Design by <a href="goutham.infra@gmail.com">Uday BK and D Dheeraj</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<script src="static/templates/js/modernizr.min.js"></script>
+<script src="static/templates/js/jquery.fitvids.js"></script>
+<script src="static/templates/js/script.js"></script>
+</body>
+</html>

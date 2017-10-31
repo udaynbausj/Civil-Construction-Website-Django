@@ -1,0 +1,357 @@
+
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Goutham's Infra</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Apartment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!--FlexSlider-->
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+<!--End-slider-script-->
+<!-- //js -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>	
+<body>
+
+<!-- banner -->
+	<div class="banner">
+			<!-- header -->
+	<div class="w3_navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-5" id="cl-effect-5">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index"><span data-hover="Home">Home</span></a></li>
+							<li><a href="about"><span data-hover="About Us">About Us</span></a></li>
+							<li><a href="gallary"><span data-hover="Gallery">Gallery</span></a></li>
+							<li><a href="login"><span data-hover="Login">Login</span></a></li>
+							<li><a href="contact"><span data-hover="Contact">Contact</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+			<div class="w3_navigation_pos">
+				<h1><a href="index.html">Goutham's Infra</a></h1>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+		<div class="banner-info">
+			<div class="container">
+				<div class="flexslider-info">
+						<section class="slider">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+									<div class="w3l-info">
+										<h3>Buildings<br>on Banjara Hills (HYDERABAD)</br></h3>
+									</div>
+									</li>
+									<li>
+									<div class="w3l-info">
+										<h3>Apartments<br>on Film Nagar (HYDEARABAD)</br></h3>
+									</div>
+									</li>
+									<li>
+									<div class="w3l-info">
+										<h3>Constructions<br>on Mumbai City</br></h3>
+									</div>
+									</li>
+									<li>
+									<div class="w3l-info">
+										<h3>Building<br>on Vishakahapatnam City</br></h3>
+									</div>
+									</li>
+									<li>
+									<div class="w3l-info">
+										<h3>Apartments <br>on Melbourne City</br></h3>
+									</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="wthree-ban">
+						<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+						<div class="agileinfo-news-button">
+							<a href="#" class="hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal"> Read More</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- tabs -->
+<div class="tabs">
+		<div class="container">
+		<h3>Welcome</h3>
+			<div class="tabs-left">
+				<div class="col-xs-2 tab-grid-left"> <!-- required for floating -->
+					<!-- Nav tabs -->
+					 <ul class="nav nav-tabs">
+						<li class="active"><a href="#Tab1" data-toggle="tab" aria-expanded="false">Picture-1</a></li>
+						<li class=""><a href="#Tab2" data-toggle="tab" aria-expanded="false">Picture-2</a></li>
+						<li class=""><a href="#Tab3" data-toggle="tab" aria-expanded="false">Picture-3</a></li>
+						<li class=""><a href="#Tab4" data-toggle="tab" aria-expanded="false">Picture-4</a></li>
+						<li class=""><a href="#Tab5" data-toggle="tab" aria-expanded="true">Picture-6</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-20 tab-grid-right">
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="Tab1">
+							<div class="w3-text">
+								<img src="images/t1.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab2">
+							<div class="w3-text">
+								<img src="images/t2.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab3">
+							<div class="w3-text">
+								<img src="images/t3.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab4">
+							<div class="w3-text">
+								<img src="images/t1.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab5">
+							<div class="w3-text">
+								<img src="images/t2.jpg" class="img-responsive" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //tabs -->
+	<!-- services -->
+	<div class="w3agile-ser">
+		<div class="container">
+		<h3>Get your dream home in just 3 steps</h3>
+			<div class="col-md-4 w3agile-ser-left">
+				<div class="w3agile-ser-top">
+					<div class="ser-lft">
+						<h4>01</h4>
+					</div>
+					<div class="ser-rgt">
+						<h5>Provide Credentials</h5>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<p>Just take time to provide credentials,signup and get authenticated login from constructor.</p>
+			</div>
+			<div class="col-md-4 w3agile-ser-left">
+				<div class="w3agile-ser-top">
+					<div class="ser-lft">
+						<h4>02</h4>
+					</div>
+					<div class="ser-rgt">
+						<h5>Pay minimum amount as per our policy</h5>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<p>To view your house building progress in website, you should pay extra 2%.You get 360 degree view of the house and it gets updated daily.</p>
+			</div>
+			<div class="col-md-4 w3agile-ser-left">
+				<div class="w3agile-ser-top">
+					<div class="ser-lft">
+						<h4>03</h4>
+					</div>
+					<div class="ser-rgt">
+						<h5>Get it done</h5>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<p>Get ready for house warming function.We take time depending on the type of construction.<br>
+					-House    -1 year(Max)<br>
+					-Villa    -1 year(Max)<br>
+					-Building -1 1/2 year(Max)</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- features -->
+	<div class="features-w3">
+				<div class="container">
+					<h3 class="tittle">Our Best Prjects</h3>
+					<div class="w3layouts-grids">
+						<div class="col-md-6 feat-grid multi-gd-text">
+							<div class="feat-top">
+								<div class="col-md-6 feat-left">
+									<a href="#"><img src="images/f1.jpg" class="img-responsive" alt=""></a>
+								</div>
+								<div class="col-md-6 feat-right">
+									<a href="#"><img src="images/f2.jpg" class="img-responsive" alt=""></a>
+									
+									<a href="#"><img src="images/f3.jpg" class="img-responsive im" alt=""></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<h4>Pioneer's Arcade(VIZAG)</h4>
+							<p>The best and tallest building in Vizag(VISHAKHAPATNAM).Excellent beach view with cool breeze.Building include swimming pool,cellar and many more...</p>
+						</div>
+						<div class="col-md-6 feat-grid multi-gd-text">
+							<a href="#"><img src="images/f4.jpg" class="img-responsive" alt=""></a>
+							<h4>Achiever's Spot(HYDERABAD)</h4>
+							<p>One of the best in our projects, built with astonishing and awesome design.Covers an area of 0.5sqkm.Definitely , you cant take eyes off.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+	<!-- //features -->
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 agileinfo_newsletter_left">
+				<h3>Subscribe to Newsletter</h3>
+				<p>To listen from us, just subscribe ....</p>
+			</div>
+			<div class="col-md-6 agileinfo_newsletter_right">
+				<form action="" method="post">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<a href='thankyou'<input type="submit" value="Subscribe">></a>
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<div class="agile-footer">
+		<div class="container">
+			<div class="aglie-info-logo">
+				<h2><a href="index.html">Goutham's Infra</a></h2>
+			</div>
+			<ul class="aglieits-nav">
+				<li><a href="index">Home</a><i>|</i></li>
+				<li><a href="about">About Us</a><i>|</i></li>
+				<li><a href="gallary">Gallery</a><i>|</i></li>
+				<li><a href="icons">Icons</a><i>|</i></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			<div class="w3layouts_mail_grid">
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Mail Us</h3>
+						<a href="goutham.infra@gmail.com">goutham.infra@gmail.com</a>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Address</h3>
+						<p>S.R Nagar,Hyderabad</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Phone</h3>
+						<p>7989844905</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1">
+						<span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>Fax</h3>
+						<p>+(0121) 121 121</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="copy-right">
+				<p>© 2017 Goutham's Infra. All rights reserved | Design by <a href="https://UdayNbausj.com">UdayNbausj</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- modal -->
+				<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header"> 
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<h4 class="modal-title">Goutham's Infra</h4>
+							</div> 
+							<div class="modal-body">
+								<div class="agileits-w3layouts-info">
+									<img src="images/t1.jpg" class="img-responsive" alt="" />
+									<p>To listen from us, just subscribe ....</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //modal -->  
+
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
